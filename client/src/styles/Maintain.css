@@ -1,0 +1,22 @@
+.maintain {
+  width: 80vw;
+  height: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.maintainList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .maintainList {
+    grid-template-columns: 1fr;
+  }
+}

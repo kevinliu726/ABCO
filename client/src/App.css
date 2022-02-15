@@ -1,0 +1,53 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.item {
+  border-radius: 15px;
+  width: 300px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.item:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.table {
+  margin-top: 120px;
+  width: 85vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.pageTitle {
+  text-align: left;
+  font-family: cursive;
+  font-size: 50px;
+}
+.add {
+  margin-top: 20px;
+  width: 100px;
+  align-self: flex-end;
+}
+body {
+  padding: 0;
+  margin: 0;
+}

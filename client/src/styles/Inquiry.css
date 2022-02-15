@@ -1,0 +1,29 @@
+.inquiry {
+  width: 80vw;
+  height: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.inquiryList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .inquiryList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .inquiryList {
+    grid-template-columns: 1fr;
+  }
+}

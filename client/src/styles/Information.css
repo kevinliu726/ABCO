@@ -1,0 +1,28 @@
+.information {
+  width: 80vw;
+  height: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.informationList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .informationList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .informationList {
+    grid-template-columns: 1fr;
+  }
+}
